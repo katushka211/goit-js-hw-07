@@ -19,7 +19,7 @@ const galleryList = galleryItems.reduce(
   ""
 );
 
-// console.log(galleryList);
+console.log(galleryList);
 
 galleryEl.insertAdjacentHTML("beforeend", galleryList);
 
