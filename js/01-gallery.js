@@ -19,8 +19,6 @@ const galleryList = galleryItems.reduce(
   ""
 );
 
-console.log(galleryList);
-
 galleryEl.insertAdjacentHTML("beforeend", galleryList);
 
 galleryEl.addEventListener("click", onImageClick);
