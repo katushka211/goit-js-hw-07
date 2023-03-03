@@ -16,8 +16,6 @@ const galleryList = galleryItems.reduce(
   ""
 );
 
-console.log(galleryList);
-
 galleryEl.insertAdjacentHTML("beforeend", galleryList);
 
 const simpleLightbox = new SimpleLightbox(".gallery a", {
